@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f4f1ec;
+  color: #1c1c1c;
+}
+
+header {
+  background-color: #1c1c1c;
+  color: #f4f1ec;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+header p {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0 auto;
+  width: 90%;
+}
+
+main {
+  padding: 2rem 1.5rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #b5482a;
+  color: #f4f1ec;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 0.2rem 0.4rem #00000033;
+  margin: 0 0.5rem;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 0.0625rem solid #dddddd;
+  border-radius: 0.75rem;
+  box-shadow: 0 0.25rem 0.5rem #00000019;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0 0 0.5em 0;
+}
+
+.card p {
+  font-size: 0.9rem;
+  margin: 0 0 0.5em 0;
+}
+
+.card .details {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.85rem;
+  color: #555555;
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #1c1c1c;
+  color: #f4f1ec;
+  font-size: 0.85rem;
+}
+
+/* Tema oscuro, activado con JS mediante toggle de clase en body */
+body.dark-theme {
+  background-color: #121212;
+  color: #f4f1ec;
+  
+}
+
+body.dark-theme .card {
+  background-color: #1e1e1e;
+  border-color: #333333;
+  color: #f4f1ec;
+  box-shadow: 0 0 2rem #753d3380;
+}
+
+body.dark-theme .card .details {
+  color: #aaaaaa;
+  
+}
